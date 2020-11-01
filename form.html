@@ -1,35 +1,42 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel= "stylesheet" href="styles.css">
+    <link rel= "formstyles" href="formstyles.css">
 </head>
 
-<form>
+<body>
+
+<div class="form">
+    <div class= "fullname">
     <label for= "fullname">Name:</label>
-    <input type= "text" id="fullname" name= "fullname">
+    <input type= "text" id="fullname" name= "fullname"></div>
 
+    <div class= "pnumber">
+    <label for= "pnumber">Phone Number:</label>
+    <input type="text" id="pnumber" name="pnumber" ></div>
 
-    <label for= "number">Phone Number:</label>
-    <input type="number" id="number" name="number" >
-
-
+    <div class= "email">
     <label for= "email">Email:</label>
-    <input type="email" id= "email" name="email">
+    <input type="email" id= "email" name="email"></div>
 
-
+    <div class= "description">
     <label for= "description">Please give us a short description of why you would make a delicous dinner for vampires.</label>
-    <input type= "text" id= "description" name="description">
+    <input type= "text" id= "description" name="description"></div>
 
-
-   <p>Virgin?</p>
-    
+    <div class= "virgin">
+    <p>Virgin?</p>
     <input type= "radio" id= "virgin" name= "virgin">
+    <label for= "virgin">Virgin</label>
+    <input type= "radio" id= "nonvirgin" name= "nonvirgin">
+    <label for= "nonvirgin">Nonvirgin</label></div>
 
+    <div class= "submit">
+    <input type= "submit" value= "Submit"></div>
+</div>
 
-Submit
-    <input type= "submit">
-</form>
+</body>
+</html>

@@ -1,11 +1,11 @@
 body {
-    background-color: FFDDAA;
+    background-color: lemonchiffon;
 
 }
 .title {
-    font-family: georgia, helvetica, arial
-    font-size: 50px;
-    font-color: 003333;
+    font-family: georgia, helvetica, arial;
+    font-size: 40px;
+    color: 003333;
   }
 
 p {
@@ -18,4 +18,4 @@ p {
 
 
 
-@media
+/*@media
