@@ -1,0 +1,20 @@
+body {
+    background-color: FFDDAA;
+
+  .name{
+    font-family: slavkappen, helvetica, arial
+    font-size: 50px;
+    font-color: 003333;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: gentium-basic; helvetica, arial;
+    }
+}
+
+
+@media

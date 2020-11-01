@@ -1,0 +1,21 @@
+body {
+    background-color: FFDDAA;
+
+}
+.title {
+    font-family: georgia, helvetica, arial
+    font-size: 50px;
+    font-color: 003333;
+  }
+
+p {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: helvetica, arial;    
+}
+
+
+
+@media
