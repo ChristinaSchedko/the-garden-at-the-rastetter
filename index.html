@@ -9,19 +9,32 @@
 </head>
 <body>
 <header>
+    <div class="Hamburger Menu"></div>
     <!--Hamburger Menu & Bar Icon-->
     <a href="javascript:void(0);" class="icon"
     onclick="myFunction"()>
-        <i class=".hamburger-menu"></i>>
+        <i class=".hamburger-menu"></i>
     </a>
-
-    <div class= "carosel">
-        <!--rotating images-->
-    <img src="flowers-4284677_1920.jpg">
-    <img src="flower-meadow-3598555_1920.jpg">
-    <img src="the-squirrel-4142446_1920.jpg">
     </div>
+
     <h1 class = 'title'>The Garden at the Rastetter est. circa 1840s ish</h1>
+    
+    <!--Carousel -->
+    <div class= "carosel">
+    <button class="carousel_button carousel_button--left is hidden">
+    <img src="flowers-4284677_1920.jpg">
+    </button>
+    <div class="carousel_track-container">
+        <ul class="carousel_track">
+            <li class="carousel_slide current-slide">
+                <img class="carousel-image" src="flower-meadow-3598555_1920.jpg" alt="">
+            </li>
+            <li class="carousel_slide">
+                <img class="carousel-image" src="the-squirrel-4142446_1920.jpg" alt="">
+            </li>
+    </ul>    
+</div>
+
     <p>Coming Soon...The Garden!</p>
     <p>Public Garden Tours: Tours will resume after the Vampire Infestation has been absolved.</p>
     <p>Sunday through Saturday: Closed because it's a private residence.</p>

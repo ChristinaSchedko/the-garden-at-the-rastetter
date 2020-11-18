@@ -9,14 +9,6 @@ body {
     display: flex;
     float: left;
     padding: 20px;
-  }
-
-p {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    font-family: helvetica, arial;    
 }
 
 /*Hamberburger Menu*/
@@ -44,6 +36,100 @@ p {
     position: absolute;
     right: 0;
     top: 0;
+}
+
+/*---Carousel--*/
+.carousel {
+    position: relative;
+    padding: 4vh;
+    margin: 0;
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel_track-container {
+    background: transparent;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel_track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in;
+}
+
+.carousel_slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    object-fit: contain;    
+}
+
+.carousel_button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.carousel_button--left {
+    left: -40px;
+}
+
+.carousel_button--right {
+    right: -40px;
+}
+
+.carousel_button img {
+    width: 25px;
+}
+
+.carousel_nav {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.carousel_indicator {
+    border: 0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: lightgray;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.carousel_indicator .current-slide {
+    background: darkgrey;
+}
+
+.is-hidden {
+    display: none;
+}
+
+
+p {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: helvetica, arial;    
 }
 
 .pitcher-photo {
