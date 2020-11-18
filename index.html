@@ -7,43 +7,60 @@
     <title>Document</title>
     <link rel= "stylesheet" href="styles.css">
 </head>
+
 <body>
 <header>
-    <div class="Hamburger Menu"></div>
-    <!--Hamburger Menu & Bar Icon-->
-    <a href="javascript:void(0);" class="icon"
-    onclick="myFunction"()>
-        <i class=".hamburger-menu"></i>
-    </a>
+
+    <div class="title">
+        <h1 class = 'title'>The Garden at the Rastetter est. circa 1840s ish</h1>
     </div>
 
-    <h1 class = 'title'>The Garden at the Rastetter est. circa 1840s ish</h1>
-    
+    <!--Hamburger Menu & Bar Icon-->
+    <div class="hamburger-menu">
+
+    </div>
+</header>
+
     <!--Carousel -->
     <div class= "carosel">
-    <button class="carousel_button carousel_button--left is hidden">
-    <img src="flowers-4284677_1920.jpg">
-    </button>
-    <div class="carousel_track-container">
-        <ul class="carousel_track">
-            <li class="carousel_slide current-slide">
-                <img class="carousel-image" src="flower-meadow-3598555_1920.jpg" alt="">
-            </li>
-            <li class="carousel_slide">
-                <img class="carousel-image" src="the-squirrel-4142446_1920.jpg" alt="">
-            </li>
-    </ul>    
-</div>
+        <div class="carousel">
+    
+            <button class="carousel_button  carousel_button--left is-hidden">
+                <img src="png-arrow-left.png"></img> alt="prev">
+            </button>
+                <div class="carousel_track-container">
+                    <ul class="carousel_track">
+                        <li class="carousel_slide current-slide">
+                            <img class="carousel-image" src="flowers-4284677_1920.jpg" alt="Close up of Flowers"> 
+                        <li class="carousel_slide">
+                            <img class="carousel-image" src="flower-meadow-3598555_1920.jpg" alt="Meadow of Flowers">   
+                        </li>
+                        <li class="carousel_slide">
+                            <img class="carousel-image" src="the-squirrel-4142446_1920.jpg" alt="Squirrel Resting on Tree Branch">
+                        </li>
+                    </ul> 
+                </div>
+            <button class="carousel_button carousel_button--right">
+                <img src="png-arrow-right.png" alt="next">
+            </button>
+            <div class="carousel_nav">
+                <button class="carousel_indicator current-slide"></button>
+                <button class="carousel_indicator"></button>
+                <button class="carousel_indicator"></button>
+            </div>
+        </div>
+
 
     <p>Coming Soon...The Garden!</p>
     <p>Public Garden Tours: Tours will resume after the Vampire Infestation has been absolved.</p>
     <p>Sunday through Saturday: Closed because it's a private residence.</p>
+<!--Navigation Menu-->
 <div>
-<nav class= 'topnav'> 
+<nav class= 'navbar'> 
     <div id="myLinks"></div>
     <ul class= 'nav-list'>
     <li class= 'nav-item'>
-        <a href= "#" class="topnav a">Link to Main Nav</a>
+        <a href= "#" class="navbar a">Link to Main Nav</a>
         <ul class= 'dropdown-menu'>
         <li class= 'dropdown-item'>
             <a href= "#" class= "dropdown-link">History</a>
@@ -60,9 +77,6 @@
 <div class= "dropdown-bg"></div>
         </nav>
 </div>
-
-
-</header>
 
 <div>
     <h2>History</h2>
@@ -109,7 +123,7 @@
     </div>
 
 <footer></footer>
-/*Social Media Links*/
+<!--Social Media Icons-->>
 </body>
 
 <script src= "index.js" href="index.js"></ScriptProcessorNode>
