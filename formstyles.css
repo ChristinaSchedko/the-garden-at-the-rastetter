@@ -1,4 +1,8 @@
 .form {
-    background-color: #98b998;
-    font-size: 40px;
+    background-color: slategray;
+    font-size: 20px;
+}
+/*nth-of-type application*/
+div:nth-of-type(5) {
+    background-color: red;
 }
