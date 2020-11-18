@@ -6,16 +6,17 @@ body {
     font-family: georgia, helvetica, arial;
     font-size: 40px;
     color: 003333;
+    /*Flexbox Application*/
     display: flex-start;
     padding: 20px;
     animation-name: title;
     animation-duration: 4s;
 }
-    /* The animation code */
+    /*Animation*/
 @keyframes title {
-    from {font-color:darkgreen;}
-    to {font-color: black;}
-    animation-duration: 4s;
+    from {color:lightgreen;}
+    to {color: black;}
+    animation-duration: 60s;
 }
 
 
