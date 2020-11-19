@@ -201,6 +201,21 @@ body {
     display: none;
 }
 
+.soon {
+    padding-top: 20px;
+}
+
+.vampire {
+    display: none;
+}
+
+.history {
+    padding-top: 40px;
+}
+
+.plants-menu {
+    padding-top: 40px;
+}
 
 p {
     margin: 0;
@@ -209,13 +224,51 @@ p {
     list-style: none;
     font-family: helvetica, arial;    
 }
-
+    /*Photos*/
 .pitcher-photo {
     max-width: 250px;
 }
 .passion-photo {
     max-width: 250px;
+    padding-top: 30px;
 }
 .rose-photo {
     max-width: 250px;
+    padding-top: 30px;
+}
+
+
+.location {
+    padding-top: 40px;
+}
+
+.contact {
+    padding-top: 40px;
+}
+
+@media (max-width:600px) {
+body {
+    background-color: lightgray;
+    }
+.pitcher-photo {
+    display: none;
+    }
+.passion-photo {
+    display: none;
+    }
+.rose-photo {
+    display: none;
+    }
+}
+
+@media (min-width: 650px) {
+.vampire {
+    display: inline;
+    }
+}
+
+@media (min-width:700px) {
+.vampire {
+    display: none;
+    }
 }
