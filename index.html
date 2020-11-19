@@ -17,7 +17,42 @@
 
     <!--Hamburger Menu & Bar Icon-->
     <div class="hamburger-menu">
-
+        <div class="navbar">
+            
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+            <a href="#history">History</a>
+            <a href="#plants">Plants</a>
+            <a href="#location">Location</a>
+            <a href="#contact">Contact</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            </a>
+        </div>
+        <script src= "index.js" href="index.js"></script>
+        media query for dropdown menu
+            <nav class= 'navbar'> 
+                <div id="myLinks"></div>
+                <ul class= 'nav-list'>
+                <li class= 'nav-item'>
+                    <a href= "#" class="navbar a">Link to Main Nav</a>
+                    <ul class= 'dropdown-menu'>
+                    <li class= 'dropdown-item'>
+                        <a href= "#" class= "dropdown-link">History</a>
+                        <p>History</p>
+                    <li class= 'dropdown-item'>
+                        <a href= "#" class= "dropdown-link">Plants</a>
+                        <p>Plants</p>
+                    <li class= 'dropdown-item'>
+                        <a href= "#" class= "dropdown-link">Location</a>
+                        <p>Location</p>
+                    <li class= 'dropdown-item'>
+                        <a href= "#" class= "dropdown-link">Contact</a>
+                        <p>Contact</p>
+            <div class= "dropdown-bg"></div>
+                    </nav>
     </div>
 </header>
 
@@ -26,7 +61,7 @@
         <div class="carousel">
     
         <button class="carousel_button  carousel_button--left is-hidden">
-            <img src="back copy.png"></img> alt="prev">
+            <img src="back.png" alt="back button">
         </button>
     <div class="carousel_track-container">
         <ul class="carousel_track">
@@ -54,29 +89,6 @@
     <p>Coming Soon...The Garden!</p>
     <p>Public Garden Tours: Tours will resume after the Vampire Infestation has been absolved.</p>
     <p>Sunday through Saturday: Closed because it's a private residence.</p>
-<!--Navigation Menu-->
-<div>
-<nav class= 'navbar'> 
-    <div id="myLinks"></div>
-    <ul class= 'nav-list'>
-    <li class= 'nav-item'>
-        <a href= "#" class="navbar a">Link to Main Nav</a>
-        <ul class= 'dropdown-menu'>
-        <li class= 'dropdown-item'>
-            <a href= "#" class= "dropdown-link">History</a>
-            <p>History</p>
-        <li class= 'dropdown-item'>
-            <a href= "#" class= "dropdown-link">Plants</a>
-            <p>Plants</p>
-        <li class= 'dropdown-item'>
-            <a href= "#" class= "dropdown-link">Location</a>
-            <p>Location</p>
-        <li class= 'dropdown-item'>
-            <a href= "#" class= "dropdown-link">Contact</a>
-            <p>Contact</p>
-<div class= "dropdown-bg"></div>
-        </nav>
-</div>
 
 <div>
     <h2>History</h2>
@@ -84,7 +96,7 @@
 
     <h3>Plant Glossary</h3>
         <h3 class= 'plant-menu'>
-    <p></p>
+    <p>Our plants love math. We included a number generator for their benfit.</p>
     <ul>
         <li>
             Pitcher Plants
@@ -118,6 +130,7 @@
     <p>this_house_stole_my_soul@gmail.com</p>
     <a href = "this_house_stole_my_soul@gmail.com">Send Email</a>
 
+    <br>
     <h7>Admission</h7>
     <p>General Admission is Forbidden!!! Free for virgins.</p>
     </div>
@@ -127,4 +140,5 @@
 </body>
 
 <script src= "index.js" href="index.js"></script>
+   
 </html

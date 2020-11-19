@@ -33,13 +33,14 @@
 
     <div class= "virgin">
     <p>Virgin?</p>
-    <input type= "radio" id= "virgin" name= "virgin">
+    <input type= "radio" id= "virgin" name= "virgin" value= "virgin">
     <label for= "virgin">Virgin</label>
-    <input type= "radio" id= "nonvirgin" name= "nonvirgin">
+    <input type= "radio" id= "nonvirgin" name= "nonvirgin" value= "nonvirgin">
     <label for= "nonvirgin">Nonvirgin</label></div>
 
     <div class= "submit">
-    <input type= "submit" value= "Submit"></div>
+    <input type= "submit" value= "Submit" onsubmit="return validateForm()" method= "post">
+    </div>
 </div>
 
 </body>

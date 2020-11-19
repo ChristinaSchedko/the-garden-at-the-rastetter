@@ -1,9 +1,9 @@
 body {
     background-color: #a9ba9d;
+    font-family: georgia, helvetica, arial;
 
 }
 .title {
-    font-family: georgia, helvetica, arial;
     font-size: 40px;
     color: 003333;
     /*Flexbox Application*/
@@ -21,6 +21,54 @@ body {
 
 
 /*Hamberburger Menu*/
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: float;
+    float: right;
+}
+
+.navbar #myLinks {
+    display: none;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.navbar a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/*
 .hamburger-menu {
     width: 35px;
     height: 30px;
@@ -108,7 +156,7 @@ body {
 .nav-link:hover::before,
 .nav-link:hover::after {
     transform: scaleX(1)
-}
+}*/
 
 /*---Carousel--*/
 .carousel {

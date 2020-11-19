@@ -36,6 +36,7 @@ const updateDots = (currentDot, targetDot) => {
     targetDot.classList.add('current-slide');
 }
 
+//---Loop----//
 const hideShowArrows = (slides, prevButton, nextButton, targetIndex) => {
     if (targetIndex === 0) {
         prevButton.classList.add('is-hidden');
@@ -93,3 +94,22 @@ movetoSlide(track, currentSlide, targetSlide);
 updateDots(currentDot, targetDot);
 hideShowArrows(slides, prevButton, nextButton, targetIndex);
 })
+
+//---Mathmatical Function in While Loop
+function getRandomNumber(upper) {
+    return Math.floor( Math.random() * upper ) +1;
+}
+let counter = 0;
+do { 
+    console.log('The random number is ${getRandomNumber(10)}');
+;  counter += 1;
+} while ( counter <10 );--/////////////
+
+//---Form---//
+function validateForm() {
+    var x = document.forms["form"]["fullname"].value;
+    if (x == "") {
+    alert("Name must be filled out");
+    return false;
+    }
+}
