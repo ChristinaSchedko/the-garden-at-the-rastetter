@@ -7,7 +7,7 @@ mneuIcon.addEventListener('click', () => {
     navbar.classList.toggle('change');
 })
 
-//---Carousel----//
+//---Carousel with Array----//
 const track = document.querySelector('.carousel_track');
 const slides = Array.from(track.children);
 const nextButton = document.querySelector('.carousel_button--right');
@@ -94,16 +94,6 @@ movetoSlide(track, currentSlide, targetSlide);
 updateDots(currentDot, targetDot);
 hideShowArrows(slides, prevButton, nextButton, targetIndex);
 })
-
-//---Mathmatical Function in While Loop
-function getRandomNumber(upper) {
-    return Math.floor( Math.random() * upper ) +1;
-}
-let counter = 0;
-do { 
-    console.log('The random number is ${getRandomNumber(10)}');
-;  counter += 1;
-} while ( counter <10 );--/////////////
 
 //---Form---//
 function validateForm() {
